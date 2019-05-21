@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(206, 132, 184);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #da7b97;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<h3>Contact Me On</h3>
+<p>Wanna be in touch? Please leave me a message:</p>
+<div class="container ">
+  <div style="align-content: center">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+     <label for="lname">Last Name</label>
+     <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+    <!--<div class="wrap-input validate-input alert-validate" data-validate="Invalid email address, required format is ex@abc.xyz">
+      <input class="input type=text name=email">
+      <span class="focus-input2" data-placeholder-"emailaddress"></span>
+    </div>-->
+    <label for="lname">Email Address</label>
+    <input type="text" id="eaddress" name="email Address" placeholder="Your email address...">
+
+    <label for="lname">Cellphone Number</label>
+    <input type="text" id="cnumber" name="cellnumber" placeholder="Cellphone number...">
+
+
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</div>
+
+
+
+</body>
+</html>
